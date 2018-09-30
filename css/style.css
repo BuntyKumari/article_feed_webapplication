@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+#registration .form-wrap{
+	width: 55%;
+	box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+	margin:100px auto;
+	padding: 30px;	
+}
+#registration h1 {
+    color: #B00020;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#registration .btn.btn-custom{
+	background-color:#B00020;
+	font-size:18px;
+	color:#fff;
+}
+
+input[type=text],
+input[type=password]
+{
+	font-size:16px;
+	font-weight:normal;
+	
+}
+
+/* responsive style */
+
+@media(min-width: 992px){
+	
+}
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	#registration .form-wrapr{
+  		width: 90%;		
+	}
+}
+
+@media(min-width: 575px) and (max-width: 767px)
+{
+	#registration .form-wrapr{
+  		width: 90%;		
+	}
+}
+@media(min-width: 480px) and (max-width: 574px)
+{
+	#registration .form-wrapr{
+  		width: 90%;		
+	}
+}
+
+@media(max-width: 479px)
+{
+	#registration .form-wrap{
+  		width: 90%;
+	
+}	
+}

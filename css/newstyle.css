@@ -1,0 +1,300 @@
+/*--------------------------------------------------------------------------------------------
+							Header and Navigation Section
+----------------------------------------------------------------------------------------------*/
+
+.bgimg{
+	background-image: url('../img/bg1.jpg');
+	background-size: cover;	
+	width: 100%;
+	background-attachment: fixed;
+	opacity: 20;
+	filter: contrast(120%);
+	filter: saturate(140%);
+}
+
+.navstyle{
+	color: #fff;
+}
+
+.nav-item a: hover{
+	color: yellow;
+}
+
+.headerset{
+	padding-top: 220px;
+	box-sizing: border-box;
+}
+.headerset h2{
+	font-size: 35px;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.headerset h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);	
+}
+
+/* -----------------------------------------------------------------------
+							User Article style
+--------------------------------------------------------------------------*/
+.articleArea{
+	width: 50%;
+	margin: 10px auto;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------
+							footer section
+----------------------------------------------------------------------------------*/
+.footer{
+	
+}
+
+.footer h6{
+	line-height: 60px;
+	font-weight: bold;
+}
+.footer .col-lg-3 h6{
+	color: #fff;
+}
+
+.footerrow{
+	background-color: #000;
+	border: 1px solid;
+	padding: 80px 20px;
+}
+
+.fa_icons{
+	padding: 5px 0px;
+	margin: 5px 2px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid;
+	border-radius: 50%;
+	font-size: 22px;
+	text-align: center;
+	line-height: 40px;
+	color: #999;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.fa_icons:hover{
+	background-color: green;
+	transition-delay: .2s;
+	border-color: green;	
+	color: #fff;
+	-webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+.col-12 p, .nav-item{
+	color: #999;
+}
+
+.col-12 h5{
+	padding-bottom: 30px;
+}
+/*--------------------------------------------------------------------------------
+			Input Type CSS
+----------------------------------------------------------------------------------*/
+
+input[type=email]{
+	background-color: transparent;
+	height: 50px;
+	font-size: 20px;
+}
+::placeholder{
+	color: #fff;
+}
+
+
+input[type=submit]{
+	height: 50px;
+	font-size: 20px;
+}
+
+
+.maincontainer{
+	padding-top: 100px;
+	
+}
+
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------
+								Media Query
+-----------------------------------------------------------------------------------------------*/
+@media(min-width: 992px)
+{
+	
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+	.headerset h2{
+	font-size: 40px;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);
+	}
+
+
+.headerset h1{
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);	
+	}
+
+.ourservices{
+		height: 800px;
+	}
+
+.ourservices h1{
+	font-weight: bold;
+	font-size: 45px;
+	}
+
+.rowsetting .col-lg-4 h3{
+	font-size: 28px;
+	}
+
+/*---------------------------------------------------
+		Portfolio Section
+----------------------------------------------------*/
+
+.portfolio{
+	height: 100%;
+	}
+.portfolio h1{
+	font-size: 45px;
+	}
+
+
+
+.card{
+	margin-top: 40px;
+	}
+.card img{
+	height: 250px;
+	width: 100%;
+	}
+
+
+
+/*---------------------------------------------------
+			Our Team Section
+-----------------------------------------------------*/
+.ourteam{
+	height: 100%;
+	}
+
+.ourteam h1{
+	font-size: 45px;	
+	}
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+	.headerset h2{
+	font-size: 30px;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);
+	}
+
+
+.headerset h1{
+	font-size: 45px;
+	font-weight: bold;
+	text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.8);	
+	}
+
+.ourservices{
+	height: 100%;
+	}
+
+.ourservices h1{
+	font-weight: bold;
+	font-size: 38px;
+	}
+
+.rowsetting .col-lg-4 h3{
+	font-size: 26px;
+	}
+
+/*---------------------------------------------------
+		Portfolio Section
+----------------------------------------------------*/
+
+.portfolio{
+	height: 100%;
+	}
+.portfolio h1{
+	font-size: 38px;
+	}
+
+
+
+.card{
+	margin-top: 40px;
+	}
+.card img{
+	height: 250px;
+	width: 100%;
+	}
+
+
+
+/*---------------------------------------------------
+			Our Team Section
+-----------------------------------------------------*/
+.ourteam{
+	height: 95%;
+	}
+
+.ourteam h1{
+	font-size: 38px;	
+	}
+
+
+/* ------------------------------------------------------ 
+			footer section 
+---------------------------------------------------------*/
+	.footer h6{
+	line-height: 60px;
+	font-weight: bold;
+
+}
+
+
+.footer .col-lg-3 h6{
+	color: #fff;
+}
+
+.footerrow{
+	width: 100%;
+}
+
+
+.col-12 p, .nav-item{
+	color: #999;
+}
+
+.col-12 h5{
+	padding-bottom: 30px;
+}
+
+}
+
+@media(min-width: 480px) and (max-width: 574px){
+
+	
+}
+
+
+
+
